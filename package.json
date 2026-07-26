@@ -1,0 +1,25 @@
+{
+  "name": "loveletter",
+  "displayName": "love letter language",
+  "description": "custom highlighting for love letter text files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "loveletter",
+      "aliases": ["love letter", "loveletter"],
+      "extensions": [".letter",".txt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "loveletter",
+      "scopeName": "source.txt.loveletter",
+      "path": "./syntaxes/loveletter.tmLanguage.json"
+    }]
+  }
+}

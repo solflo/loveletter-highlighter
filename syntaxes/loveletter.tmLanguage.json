@@ -1,0 +1,13 @@
+{
+  "scopeName": "source.txt.loveletter",
+  "patterns": [
+    {
+      "name": "comment",
+      "match": "^!--.*"
+    },
+    {
+      "name": "keyword",
+      "match": "^![a-zA-Z]*\\s"
+    }
+  ]
+}
