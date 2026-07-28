@@ -4,7 +4,14 @@ basic syntax highlighter for the [love letter engine](https://github.com/solflo/
 
 ## installation
 
-- download this repo or the latest release
+### .vsix 
+
+- open the extension menu (`ctrl + shift + x`)
+- open the meatball menu and pick "install from .vsix"
+
+### from source
+
+- download this repo or the latest release (source)
 - open the vscode command palette (`ctrl + shift + p`)
 - type in "Developer: Install Extension from Location"
 - select the folder and it should work :)
