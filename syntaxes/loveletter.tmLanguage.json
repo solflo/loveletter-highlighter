@@ -6,6 +6,10 @@
       "match": "^!--.*"
     },
     {
+      "name": "keyword.control",
+      "match": "^!(SPR|BG|MUS|SFX)\\s.*"
+    },
+    {
       "name": "keyword",
       "match": "^![a-zA-Z]*\\s"
     }
