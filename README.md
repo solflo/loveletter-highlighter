@@ -18,7 +18,7 @@ basic syntax highlighter for the [love letter engine](https://github.com/solflo/
 
 ## color customization
 
-`syntaxes/loveletter.tmLanguage.json` lists the scopes (you can also use the command palette > "developer: inspect editor tokens and scopes" for this), which you can change the colors of in your `settings.json`. know that if it doesn't work with the _user_ settings, you'll need to change these in the _workspace_ settings, because visual studio sucks ASS. just search `@id:editor.tokenColorCustomizations` on the settings search bar and look at both.
+`syntaxes/loveletter.tmLanguage.json` lists the scopes (you can also use the command palette > "developer: inspect editor tokens and scopes" for this), which you can change the colors of in your `settings.json`. know that if it doesn't work with the _user_ settings, you'll need to change these in the _workspace_ settings, because visual studio sucks ASS and can only use textmate rules in one place at a time. just search `@id:editor.tokenColorCustomizations` on the settings search bar and look at both.
 
 you'll add these under `editor.tokenColorCustomizations`, and then `textMateRules`, prefaced by `source.txt.loveletter keyword`:
 
@@ -42,3 +42,5 @@ this is what my settings look like (well, without the renpy chaff the extension 
     ]
 }
 ```
+
+if you're curious my comments are `#887876`, but those i applied globally, which you can do by putting `"comments": "#887876",` before `"textMateRules"`. notice that the names are different. i hope this helps you understand why such a simple extension took so much of my time and patience.
