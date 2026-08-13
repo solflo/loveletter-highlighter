@@ -33,15 +33,11 @@ this is what my settings look like (well, without the renpy chaff the extension 
     "textMateRules": [
         {
             "scope": "source.txt.loveletter keyword",
-            "settings": {
-                "foreground": "#f1bfcc"
-            }
+            "settings": { "foreground": "#f1bfcc" }
         },
         {
             "scope": "source.txt.loveletter keyword.control",
-            "settings": {
-                "foreground": "#965e6b"
-            }
+            "settings": { "foreground": "#965e6b" }
         }
     ]
 }
