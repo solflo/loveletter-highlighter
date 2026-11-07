@@ -47,7 +47,7 @@ this is what my settings look like (well, without the renpy chaff the extension 
 
 if you're curious my comments are `#887876`, but those i applied globally, which you can do by putting `"comments": "#887876",` before `"textMateRules"`. notice that the names are different. i hope this helps you understand why such a simple extension took so much of my time and patience.
 
-i also like having colored brackets, specifically `[]` so i can easily find placeholders. i do this like so, still under `"editor.tokenColorCustomizations"`:
+i also like having colored brackets for loveletter (but they're disabled elsewhere, in part bc i mostly write html so they're not useful), specifically `[]` so i can easily find placeholders. i do this like so, still under `"editor.tokenColorCustomizations"`:
 
 ```json
 "workbench.colorCustomizations": {
