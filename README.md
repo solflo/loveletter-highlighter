@@ -1,6 +1,8 @@
+**i've migrated this repo (and all other ll stuff) to [codeberg](https://codeberg.org/solflo/loveletter-highlighter)!!**
+
 # love letter syntax highlighter
 
-basic syntax highlighter for the [love letter engine](https://github.com/solflo/loveletter) language. it has one color for comments, one for image / audio commands and one for dialogue tags. and that's it. expects `.txt` and `.letter` files. the engine itself only takes in `script.txt`, and i don't think i'll change that, but i have my reasons to create a "fake" filetype extension ok.
+basic syntax highlighter for the [love letter engine](https://codeberg.org/solflo/loveletter) language. it has one color for comments, one for image / audio commands and one for dialogue tags. and that's it. expects `.txt` and `.letter` files. the engine itself only takes in `script.txt`, and i don't think i'll change that, but i have my reasons to create a "fake" filetype extension ok.
 
 ## installation
 
